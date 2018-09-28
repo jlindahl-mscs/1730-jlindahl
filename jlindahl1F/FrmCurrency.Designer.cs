@@ -156,7 +156,7 @@
             this.btnAustralia.Location = new System.Drawing.Point(42, 30);
             this.btnAustralia.Name = "btnAustralia";
             this.btnAustralia.Size = new System.Drawing.Size(121, 118);
-            this.btnAustralia.TabIndex = 8;
+            this.btnAustralia.TabIndex = 10;
             this.btnAustralia.Text = "Australian Dollar";
             this.btnAustralia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAustralia.UseVisualStyleBackColor = true;
@@ -168,7 +168,7 @@
             this.btnBrazil.Location = new System.Drawing.Point(192, 31);
             this.btnBrazil.Name = "btnBrazil";
             this.btnBrazil.Size = new System.Drawing.Size(126, 116);
-            this.btnBrazil.TabIndex = 9;
+            this.btnBrazil.TabIndex = 11;
             this.btnBrazil.Text = "Brazil Real";
             this.btnBrazil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBrazil.UseVisualStyleBackColor = true;
@@ -180,7 +180,7 @@
             this.btnCanada.Location = new System.Drawing.Point(341, 31);
             this.btnCanada.Name = "btnCanada";
             this.btnCanada.Size = new System.Drawing.Size(140, 117);
-            this.btnCanada.TabIndex = 10;
+            this.btnCanada.TabIndex = 12;
             this.btnCanada.Text = "Canadian Dollar";
             this.btnCanada.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCanada.UseVisualStyleBackColor = true;
@@ -193,7 +193,7 @@
             this.btnIndia.Location = new System.Drawing.Point(502, 30);
             this.btnIndia.Name = "btnIndia";
             this.btnIndia.Size = new System.Drawing.Size(145, 117);
-            this.btnIndia.TabIndex = 11;
+            this.btnIndia.TabIndex = 13;
             this.btnIndia.Text = "Indian Rupee";
             this.btnIndia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnIndia.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             this.lblCurrency.MaximumSize = new System.Drawing.Size(500, 20);
             this.lblCurrency.Name = "lblCurrency";
             this.lblCurrency.Size = new System.Drawing.Size(134, 20);
-            this.lblCurrency.TabIndex = 12;
+            this.lblCurrency.TabIndex = 0;
             this.lblCurrency.Click += new System.EventHandler(this.lblCurrency_Click);
             // 
             // lblEquation
@@ -215,7 +215,7 @@
             this.lblEquation.Location = new System.Drawing.Point(26, 262);
             this.lblEquation.Name = "lblEquation";
             this.lblEquation.Size = new System.Drawing.Size(137, 64);
-            this.lblEquation.TabIndex = 13;
+            this.lblEquation.TabIndex = 6;
             // 
             // label3
             // 
@@ -223,7 +223,7 @@
             this.label3.Location = new System.Drawing.Point(23, 205);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 13);
-            this.label3.TabIndex = 14;
+            this.label3.TabIndex = 2;
             this.label3.Text = "Rate:";
             // 
             // label4
@@ -232,7 +232,7 @@
             this.label4.Location = new System.Drawing.Point(23, 233);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
-            this.label4.TabIndex = 15;
+            this.label4.TabIndex = 4;
             this.label4.Text = "$US";
             // 
             // txtCurrency
@@ -240,7 +240,7 @@
             this.txtCurrency.Location = new System.Drawing.Point(182, 176);
             this.txtCurrency.Name = "txtCurrency";
             this.txtCurrency.Size = new System.Drawing.Size(125, 20);
-            this.txtCurrency.TabIndex = 16;
+            this.txtCurrency.TabIndex = 1;
             this.txtCurrency.Text = "0.00";
             this.txtCurrency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtCurrency.Click += new System.EventHandler(this.txtCurrency_Click);
@@ -252,7 +252,7 @@
             this.txtRate.Location = new System.Drawing.Point(182, 202);
             this.txtRate.Name = "txtRate";
             this.txtRate.Size = new System.Drawing.Size(125, 20);
-            this.txtRate.TabIndex = 17;
+            this.txtRate.TabIndex = 3;
             this.txtRate.Text = "0.00";
             this.txtRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtRate.TextChanged += new System.EventHandler(this.calcUSD);
@@ -263,7 +263,7 @@
             this.txtUSDollars.Name = "txtUSDollars";
             this.txtUSDollars.ReadOnly = true;
             this.txtUSDollars.Size = new System.Drawing.Size(125, 20);
-            this.txtUSDollars.TabIndex = 18;
+            this.txtUSDollars.TabIndex = 5;
             this.txtUSDollars.TabStop = false;
             this.txtUSDollars.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -273,7 +273,7 @@
             this.txtTotalUSD.Name = "txtTotalUSD";
             this.txtTotalUSD.ReadOnly = true;
             this.txtTotalUSD.Size = new System.Drawing.Size(125, 20);
-            this.txtTotalUSD.TabIndex = 19;
+            this.txtTotalUSD.TabIndex = 7;
             this.txtTotalUSD.TabStop = false;
             this.txtTotalUSD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -283,7 +283,7 @@
             this.btnAdd.Location = new System.Drawing.Point(313, 219);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(33, 27);
-            this.btnAdd.TabIndex = 20;
+            this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -293,7 +293,7 @@
             this.btnReset.Location = new System.Drawing.Point(176, 298);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(91, 30);
-            this.btnReset.TabIndex = 21;
+            this.btnReset.TabIndex = 9;
             this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
@@ -303,7 +303,7 @@
             this.btnExit.Location = new System.Drawing.Point(286, 298);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(90, 30);
-            this.btnExit.TabIndex = 22;
+            this.btnExit.TabIndex = 14;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
