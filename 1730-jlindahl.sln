@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730jlindahlvariablesSample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl1730ex2a1", "jlindahl1730ex2a1\jlindahl1730ex2a1.csproj", "{D7B8BDB4-2E90-4309-88B2-290CFD904BEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl1730ex2b1", "jlindahl173ex2b1\jlindahl1730ex2b1.csproj", "{D0F647F8-D7B9-48D7-8BD3-D1CAFAE14CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D7B8BDB4-2E90-4309-88B2-290CFD904BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B8BDB4-2E90-4309-88B2-290CFD904BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B8BDB4-2E90-4309-88B2-290CFD904BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F647F8-D7B9-48D7-8BD3-D1CAFAE14CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F647F8-D7B9-48D7-8BD3-D1CAFAE14CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F647F8-D7B9-48D7-8BD3-D1CAFAE14CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F647F8-D7B9-48D7-8BD3-D1CAFAE14CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
