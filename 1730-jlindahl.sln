@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl2e1", "jlindahlE1\j
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahlLogicalOperationsUnitTests", "jlindahlLogicalOperationsUnitTests\jlindahlLogicalOperationsUnitTests.csproj", "{6BA21584-D9F9-4D92-9EAF-B4D25BE9E8AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl17302f", "jlindahl17302f\jlindahl17302f.csproj", "{285B0353-CD7B-4167-A47D-78B77CE58E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl2f1UnitTests", "jlindahl2f1UnitTests\jlindahl2f1UnitTests.csproj", "{6BF9ED15-050A-430F-89F8-7B77229E6971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{6BA21584-D9F9-4D92-9EAF-B4D25BE9E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA21584-D9F9-4D92-9EAF-B4D25BE9E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA21584-D9F9-4D92-9EAF-B4D25BE9E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285B0353-CD7B-4167-A47D-78B77CE58E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285B0353-CD7B-4167-A47D-78B77CE58E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285B0353-CD7B-4167-A47D-78B77CE58E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285B0353-CD7B-4167-A47D-78B77CE58E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF9ED15-050A-430F-89F8-7B77229E6971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF9ED15-050A-430F-89F8-7B77229E6971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF9ED15-050A-430F-89F8-7B77229E6971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF9ED15-050A-430F-89F8-7B77229E6971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
