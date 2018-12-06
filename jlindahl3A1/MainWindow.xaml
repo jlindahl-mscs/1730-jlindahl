@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:jlindahl3A1"
         mc:Ignorable="d"
-        Title="jlindahl3A1 Loops" Height="578.657" Width="1044.149">
+        Title="jlindahl3A1 Loops" Height="672.657" Width="1170.149">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="374" Margin="62,41,0,0" VerticalAlignment="Top" Width="812">
+        <Grid HorizontalAlignment="Left" Height="565" Margin="62,41,0,0" VerticalAlignment="Top" Width="1054">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="1*"/>
@@ -16,6 +16,12 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
@@ -39,7 +45,41 @@
             <TextBox x:Name="inputTextBox2C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,29,0,0" Grid.Row="2"/>
             <TextBox x:Name="resultTextBox2" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
                      TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,29,0,0" Grid.Row="2"/>
-            <Button x:Name="calcButton" Content="Calculate" Grid.Column="1" HorizontalAlignment="Left" Margin="10,31,0,0" Grid.Row="3" VerticalAlignment="Top" Width="60" Click="calcButton_Click"/>
+            <Label Content="3) Count, while" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="10,23,0,0" Grid.Row="3" Width="67"/>
+            <TextBox x:Name="inputTextBox3A" Grid.Column="1" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,27,0,0" Grid.Row="3"/>
+            <TextBox x:Name="inputTextBox3B" Grid.Column="2" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,27,0,0" Grid.Row="3"/>
+            <TextBox x:Name="inputTextBox3C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="3"/>
+            <TextBox x:Name="resultTextBox3" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="3"/>
+            <Label Content="4) Do, while" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="10,33,0,0" Grid.Row="4" Width="67"/>
+            <TextBox x:Name="inputTextBox4A" Grid.Column="1" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,22,0,0" Grid.Row="4"/>
+            <TextBox x:Name="inputTextBox4B" Grid.Column="2" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,27,0,0" Grid.Row="4"/>
+            <TextBox x:Name="inputTextBox4C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="4"/>
+            <TextBox x:Name="resultTextBox4" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="4"/>
+            <Label Content="5) For, while" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="10,33,0,0" Grid.Row="5" Width="67"/>
+            <TextBox x:Name="inputTextBox5A" Grid.Column="1" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,23,0,0" Grid.Row="5"/>
+            <TextBox x:Name="inputTextBox5B" Grid.Column="2" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.167,4.75" Margin="10,27,0,0" Grid.Row="5"/>
+            <TextBox x:Name="inputTextBox5C" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="5"/>
+            <TextBox x:Name="resultTextBox5" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="5"/>
+            <Label Content="6) Sum while" HorizontalAlignment="Left" Margin="10,23,0,5" Grid.Row="6" Width="67"/>
+            <TextBox x:Name="inputTextBox6A" Grid.Column="1" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="272" RenderTransformOrigin="1.167,4.75" Margin="10,23,0,0" Grid.Row="6" Grid.ColumnSpan="2" Text="22 14 5 47 12"/>
+            <TextBox x:Name="inputTextBox6B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="6"/>
+            <TextBox x:Name="resultTextBox6" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="6"/>
+            <Label Content="7) Sum do while" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="10,23,0,0" Grid.Row="7" Width="67"/>
+            <TextBox x:Name="inputTextBox7A" Grid.Column="1" HorizontalAlignment="Left" Height="24"  TextWrapping="Wrap" VerticalAlignment="Top" Width="272" RenderTransformOrigin="1.167,4.75" Margin="10,23,0,0" Grid.Row="7" Grid.ColumnSpan="2" Text="22 14 5 47 12"/>
+            <TextBox x:Name="inputTextBox7B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="7"/>
+            <TextBox x:Name="resultTextBox7" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="7"/>
+            <Label Content="8) Sum, for" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="10,23,0,0" Grid.Row="8" Width="67"/>
+            <TextBox x:Name="inputTextBox8A" Grid.Column="1" HorizontalAlignment="Left" Height="28"  TextWrapping="Wrap" VerticalAlignment="Top" Width="272" RenderTransformOrigin="1.167,4.75" Margin="10,23,0,0" Grid.Row="8" Grid.ColumnSpan="2" Text="22 14 5 47 12"/>
+            <TextBox x:Name="inputTextBox8B" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Margin="10,27,0,0" Grid.Row="8"/>
+            <TextBox x:Name="resultTextBox8" Grid.Column="4" HorizontalAlignment="Left" Height="24" 
+                     TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Margin="0,27,0,0" Grid.Row="8"/>
+
+            <Button x:Name="calcButton" Content="Calculate" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="9" VerticalAlignment="Top" Width="60" Click="calcButton_Click"/>
 
         </Grid>
 
