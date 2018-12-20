@@ -103,10 +103,10 @@ namespace jlindahl1730ex3c1
             if (length > 0)
             {
                 double avg = Calc5(numbers);
-                foreach (double number in numbers)
+                foreach (int number in numbers)
 
                     if (number >= avg)
-                        aboveavgList.Add(numbers[]);
+                        aboveavgList.Add(number);
             }
                 
                 return aboveavgList.ToArray();

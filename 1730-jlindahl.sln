@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl1730ex3c1", "jlinda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahlEx3c1UnitTests", "jlindahlEx3c1UnitTests\jlindahlEx3c1UnitTests.csproj", "{01FF7E1B-9340-4930-9336-C0B792FE2002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl17303d1", "jlindahl17303d1\jlindahl17303d1.csproj", "{F58234FC-FF97-4FFD-92A4-BBFF317F338C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jlindahl3d1UnitTests", "jlindahl3d1UnitTests\jlindahl3d1UnitTests.csproj", "{BA984221-07EC-40DA-B54B-33A21C7B5C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{01FF7E1B-9340-4930-9336-C0B792FE2002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FF7E1B-9340-4930-9336-C0B792FE2002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FF7E1B-9340-4930-9336-C0B792FE2002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58234FC-FF97-4FFD-92A4-BBFF317F338C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58234FC-FF97-4FFD-92A4-BBFF317F338C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58234FC-FF97-4FFD-92A4-BBFF317F338C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58234FC-FF97-4FFD-92A4-BBFF317F338C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA984221-07EC-40DA-B54B-33A21C7B5C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA984221-07EC-40DA-B54B-33A21C7B5C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA984221-07EC-40DA-B54B-33A21C7B5C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA984221-07EC-40DA-B54B-33A21C7B5C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
