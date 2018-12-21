@@ -50,6 +50,14 @@ namespace jlindahl17303d1
                     count += value;
             int counter = count;
             return counter;
+
+            ////This is what I should have used
+            //int count = 0;
+            //foreach (int value in values)
+            //    if (value == searchValue)
+            //        count++;
+            //int counter = count;
+            //return counter;
         }
 
         internal static string RangeCount(int[] values, string strSearchMin, string strSearchMax)

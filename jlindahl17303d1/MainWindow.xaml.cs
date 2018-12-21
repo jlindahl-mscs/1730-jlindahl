@@ -41,8 +41,8 @@ namespace jlindahl17303d1
         private void searchValuesComboBox_TextChanged(object sender, TextChangedEventArgs e)
 
         {
-            
-           
+
+
             valueCountTextBox.Text = "";
             try
             {
@@ -54,6 +54,19 @@ namespace jlindahl17303d1
             {
 
             }
+
+            // this is what I should have used. 12/20/18
+            //valueCountTextBox.Text = "";
+            //try
+            //{
+            //    int value = Int32.Parse(searchRangesComboBox.Text);
+            //    this.valueCountTextBox.Text = Ex3dCalculations.ValueCount(values, value).ToString();
+            //}
+
+            //catch
+            //{
+
+            //}
 
         }
 
@@ -67,13 +80,31 @@ namespace jlindahl17303d1
 
             string strSearchMax = this.searchRangesComboBox.Text.Substring(dashIndex + 1).Trim();
 
-            
+
 
             try
             {
                 rangeCountTextBox.Text = Ex3dCalculations.RangeCount(values, strSearchMin, strSearchMax);
             }
             catch { }
+
+            //this is what I should have used.
+            //try
+            //{
+
+            //    int dashIndex = this.searchRangesComboBox.Text.IndexOf('-');
+
+            //    string strSearchMin = this.searchRangesComboBox.Text.Substring(0, dashIndex).Trim();
+
+            //    string strSearchMax = this.searchRangesComboBox.Text.Substring(dashIndex + 1).Trim();
+
+            //    rangeCountTextBox.Text = Ex3dCalculations.RangeCount(values, strSearchMin, strSearchMax);
+            //}
+            //catch
+            //{
+
+            //}
+
 
         }
     }
